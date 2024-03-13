@@ -10,6 +10,8 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
    padding-bottom: 60px;
+   background-color: rgb(250, 231, 184);
+
 }
 
 header {
@@ -58,7 +60,7 @@ section {
 
 /* Project card styles */
 .project {
-  border: 1px solid #ddd;
+  border: 1px solid #f6afaf;
   padding: 10px;
   margin-bottom: 20px;
 }
