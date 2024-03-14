@@ -1,3 +1,12 @@
+var typed = new Typed(".multiple-text", {
+  strings: ["Front End Developer", "Designer", "Freelancer","Programmer"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true,
+});
+
+
 document.addEventListener("DOMContentLoaded", function () {
   // Smooth scrolling
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {

@@ -1,76 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shanuka Radeeshan - Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Your Name</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#resume">Resume</a></li>
-        </ul>
-        <div class="menu-toggle">
-          <i class="fas fa-bars"></i>
-        </div>
-      </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a href>
+            <a href="#about">About</a href>
+            <a href="#skills">Skills</a href>
+            <a href="#projects">Projects</a href>
+            <a href="#portfolio">Portfolio</a href>
+            <a href="#contact">Contact</a href>
+        </nav>
     </header>
 
-    <section id="about" class="about-section">
-      <div class="about-content">
-        <h2>About Me</h2>
-        <img src="CV image2-copy.jpg" alt="Your Name" class="profile-photo" />
-        <p>
-            Undergraduate in Bachelor of Science following  Information Technology in the Faculty of Applied Science, University of Vavuniya.<br>
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Shanuka Radeeshan</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+
+            <Section id="about" class="about">
+            <p class="about-paragraph">Undergraduate in Bachelor of Science following  Information Technology in the Faculty of Applied Science, University of Vavuniya.<br>
             
         
           My primary objective is to establish a secure and supportive working
           environment that nurtures professional growth and development.<br> 
           I strive to facilitate compelling and challenging projects that inspire
           a passion for continuous learning, foster critical thinking, and
-          cultivate problem-solving skills.<br>
-        </p>
-        <br>
-        <ul class="details">
-          <li><strong>Name:</strong> Shanuka Radeeshan</li>
-          <li><strong>Email:</strong> radeeshanuka123@gmail.com</li>
-          <li><strong>Location:</strong> Eheliyagoda, Sri Lanka</li>
-          <li><strong>Phone:</strong> +94714747543</li>
-        </ul>
-      </div>
+          cultivate problem-solving skills.<br></p>
+          </Section>
+
+          <section id="contact">
+          <div class="social-media">
+            <a href="https://wa.me/qr/QDOYUE2324EIJ1"><i class='bx bxl-whatsapp-square' ></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61551619196495"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/radeeshanuka?igsh=MXJnMzkwYTdpdHB6cw=="><i class='bx bxl-instagram-alt' ></i></i></a>
+            <a href="www.linkedin.com/in/shanuka-gunathilaka-6509212b1"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://t.me/shanRadee"><i class='bx bxl-telegram' ></i></a>
+            <a href="https://github.com/radeeshanuka123"><i class='bx bxl-github' ></i></a>
+            
+
+          </div>
+          </section>
+
+          <section id="portfolio">
+
+          <a href="SHANUKA RADEESHAN GUNATHILAKA.pdf" class="btn">Download CV</a>
+          </section>
+        </div>
+
+        
+        <div class="home-img">
+            <img src="Shanuka.jpg" alt="home">
+        </div>
+
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
+    <section id="projects" >
+        <h2 class="project-title">Projects</h2>
+        <div class="projects">
+      <div class="project-contenet">
         <h3>Expensive Tracker</h3>
         <p> It can use to keep track of your expenses.</p>
         <a href="https://github.com/radeeshanuka123/CodeAlpha_Expense_Tracker" class="btn">View Project</a>
       </div>
-      <div class="project">
+      <div class="project-contenet">
         <h3>Word Counter</h3>
         <p> It can use to count the number of words in a paragraph.</p>
         <a href="https://github.com/radeeshanuka123/word-counter" class="btn">View Project</a>
       </div>
-      <!-- Add more projects here -->
+      </div>
     </section>
 
-    <section id="resume">
-      <h2>Resume</h2>
-      <a href="./SHANUKA RADEESHAN GUNATHILAKA.pdf" class="btn">Download Resume</a>
-      <!--<a href="https://raw.githubusercontent.com/your-username/your-repository-name/main/resume.pdf" class="btn" download>Download Resume</a>-->
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul class="list">
+            <li>Web Development</li>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Adaptability</li>
+            <li>Problem-solving</li>
+            <li>Initiative</li>
+            <li>Time Management</li>
+            <li>Critical Thinking</li>
+            <li>Creativity</li>
+            <li>Leadership</li>
+            <li>Attention to Detail</li>
+            <li>Technical Proficiency</li>
+            <li>Analytical Skills</li>
+            <li>Collaboration</li>
+            <li>Continuous Learning</li>
+        </ul>
     </section>
+
+
 
     <footer>
       <p>&copy; 2024 Shanuka Radeeshan</p>
     </footer>
 
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="script.js"></script>
-  </body>
+<script src="script.js"></script>
+
+    
+</body>
 </html>
+
